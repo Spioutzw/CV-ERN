@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol, ul {
+    /* Annule l'affichage des puces et numéros des listes */
+    list-style: none;
+}
+
+a {
+    color: inherit;
+}
+
+address {
+    font-style: normal;
+}
+
+button,
+input[type="submit"] {
+    align-items: stretch;
+    background-color: transparent;
+    border: 0;
+    color: inherit;
+}
